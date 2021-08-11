@@ -1,0 +1,342 @@
+.naveg {
+  background-color: #000000;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+.naveg-logo {
+  color: #fff;
+  width: 10rem;
+  justify-self: start;
+  margin-top: 3.5rem;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.na-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.naveg-menu {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+  z-index: 10;
+}
+
+.naveg-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.naveg-links {
+  color: white;
+  font-family: "Proxima Nova", "sans-serif";
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.naveg-link1:hover {
+  color: #da291c;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.naveg-link2:hover {
+  color: #97d700;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.naveg-link3:hover {
+  color: #fda607;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.na-bars {
+  color: #fff;
+}
+
+.naveg-links-mobile {
+  display: none;
+}
+
+.naveg-icon {
+  display: none;
+}
+
+.coisas {
+  font-family: "Proxima nova", sans-serif;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .NavegItems {
+    position: relative;
+  }
+
+  .naveg-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 68px;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-menu.active {
+    position: absolute;
+    background: #000000;
+    right: 0;
+    padding-right: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .naveg-links:hover {
+    background-color: #ffff;
+    border-radius: 0;
+  }
+
+  .naveg-logo {
+    position: absolute;
+    width: 7rem;
+    top: -2.2rem;
+    left: 0;
+  }
+
+  .naveg-icon {
+    display: block;
+    width: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    justify-content: end;
+  }
+
+  .na-times {
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+  }
+
+  .naveg-links-mobile {
+    display: absolute;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #ffffff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .naveg-links-mobile:hover {
+    background: #fff;
+    color: #e0e0e0;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavegItems {
+    position: relative;
+  }
+
+  .naveg-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: 68px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-menu.active {
+    position: absolute;
+    background: #000000;
+    left: 0;
+    padding-left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .naveg-links:hover {
+    background-color: #ffff;
+    border-radius: 0;
+  }
+
+  .naveg-logo {
+    position: absolute;
+    width: 7rem;
+    top: -2.2rem;
+    left: 0;
+  }
+
+  .naveg-icon {
+    display: block;
+    width: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    justify-content: end;
+  }
+
+  .na-times {
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+  }
+
+  .naveg-links-mobile {
+    display: absolute;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #ffffff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .naveg-links-mobile:hover {
+    background: #fff;
+    color: #e0e0e0;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .naveg-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: 68px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-menu.active {
+    position: absolute;
+    background: #000000;
+    left: 0;
+    padding-left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .naveg-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .naveg-links:hover {
+    background-color: #ffff;
+    border-radius: 0;
+  }
+
+  .naveg-logo {
+    position: absolute;
+    width: 7rem;
+    top: -2.2rem;
+    left: 0;
+  }
+
+  .naveg-icon {
+    display: block;
+    width: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    justify-content: end;
+  }
+
+  .na-times {
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+  }
+
+  .naveg-links-mobile {
+    display: absolute;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #ffffff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .naveg-links-mobile:hover {
+    background: #fff;
+    color: #e0e0e0;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+}

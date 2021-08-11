@@ -1,0 +1,50 @@
+html {
+   
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root,
+.App,
+.fullHeight {
+    height: 100%;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+ 
+    font-weight: 400;
+    line-height: 1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a, a:hover {
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.main {
+    height: calc(100% - 6.5rem);
+
+    max-width: 1450px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,35 @@
+.equipmentCard {
+   
+
+    .yeet {
+        display: block;
+        width: 100%;
+        margin: 2rem auto;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0;
+
+        }
+    }
+
+    .equipmentDetails {
+        ul, ul li {
+            
+        }
+
+        ul li {
+            list-style-type: none;
+            margin: 0 auto 1rem;
+
+            h1 {
+                margin: 0;
+            }
+        }
+    }
+
+    .addToCart {
+       
+    }
+}

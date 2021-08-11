@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../src/assets/fonts/PN/mk/Proxima_Nova_Bold.otf");
+  /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: bold;
+  font-weight: 800;
+  src: url("../src/assets/fonts/PN/mk/Proxima_Nova_ExtraBold.otf");
+  /* IE9 Compat Modes */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Proxima Nova", "sans-serif";
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Proxima Nova", "sans-serif";
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Proxima Nova", "sans-serif";
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: "Proxima Nova", "sans-serif";
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: "Proxima Nova", "sans-serif";
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+h6 {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 3.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 3.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.100rem;
+  }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.0rem;
+  }
+
+  h4 {
+    font-size: 3.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.100rem;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 3.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}

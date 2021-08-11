@@ -1,0 +1,47 @@
+.formRow {
+    display: inline-block;
+    width: 100%;
+    
+
+    label {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 1.2rem;
+        padding-left: 1.1rem;
+        margin-top:2rem;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    select {
+        display: block;
+        width: auto;
+        float: left;
+        font-size: 1rem;
+        font-family: 'Open Sans', 'sans-serif';
+        line-height: 4;
+        font-weight: 400;
+        text-align: left;
+        padding: 10px 0px;
+        margin-left: 3rem !important;
+        margin: 10px auto;
+        border-color: rgb(184, 184, 184);
+        border-radius: 8 !important;
+        outline: none;
+        cursor: pointer;
+
+
+        option {
+            margin-top:1.5rem !important;
+            margin-bottom: 1.5rem !important;
+
+
+
+            &:hover {
+                background-color: black !important;
+            }
+        }
+    }
+
+   
+}
