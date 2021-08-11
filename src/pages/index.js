@@ -1,5 +1,5 @@
 export { default as Homepage } from './Homepage';
-export { default as Incubator } from './Incubator';
+export { default as Incubator } from './incubator';
 export { default as InnovationSpace } from './InnovationSpace';
 export { default as DesignFactory } from './DesignFactory';
 export { default as Login } from './Login';
